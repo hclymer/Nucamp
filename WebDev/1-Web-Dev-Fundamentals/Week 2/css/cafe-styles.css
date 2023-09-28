@@ -1,0 +1,62 @@
+body {
+    background: #A3CEF1;
+    font-family: Tahoma, Arial, sans-serif;
+    width: 500px;
+    height: 500px;
+
+}
+
+h1 {
+    color: #274C77;
+    font: 32px Garamond, Helvetica, serif;
+}
+
+#menu {
+    border: 5px dotted #274C77;
+    width: 300px;
+    height: 300px;
+    padding: -100px;
+}
+
+#menu h2 {
+    text-align: center;
+}
+table {
+    width: 50%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#E7ECEF;
+}
+
+thead {
+    text-align: left;
+    background-color: #6096BA;
+}
+
+th, td {
+    border-bottom: 1px solid #274C77 ;
+    border-right: 1px solid #274C77;
+}
+tr:hover {background-color: #6096BA;}
+
+#form {
+    text-align: center;
+    border: #274C77 dotted 5px;
+}
+
+#submit-btn {
+    text-align: center;
+    background-color: #274C77;
+    border: #274C77 solid 1px;
+    color: #E7ECEF;
+}
+
+label {
+    display: block;
+}
+
+#contact {
+    border: #274C77 5px dotted;
+    text-align: center;
+}

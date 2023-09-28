@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile- Henry Clymer</title>
+    <style>
+        body {
+            background: rgb(167,248,255);
+            background: linear-gradient(90deg, rgba(167,248,255,1) 0%, rgba(255,255,255,1) 50%, rgba(248,169,252,1) 100%);
+            text-align: center;
+        }
+        #center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul li {
+            list-style-type: none;
+        }
+        ul li::before {
+            content: '\2605'; 
+        }
+
+        nav a {
+            text-decoration: none;
+            color: navy;
+        }
+        footer a {
+            text-decoration: none;
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About Me</a> <br>
+        <a href="#interests">My Interests</a> <br>
+        <a href="#experience">Work Experience</a> <br>
+        <a href="#contact">Contact Me</a>
+    </nav>
+    <h1>Profile- Henry Clymer</h1>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profilepic.png" alt="a redheaded male with headphones on smiling looking directly at the camera" width="300px"><br>
+        <caption>Caption: Me!</caption>
+        <ul>
+            <li>I grew up in Levittown Pa</li>
+            <li>I currently live in <a href="https://en.wikipedia.org/wiki/Camden,_New_Jersey">Camden, NJ</a></li>
+            <li>Fun fact: I was born without five teeth</li>
+            <ul>
+                <li>3 wisdom teeth</li>
+                <li>2 eye teeth</li>
+                <ul>
+                    <li>If you feel next to your two front teeth you will feel flat teeth, I have fangs there</li>
+                </ul>
+            </ul>
+            <li>Job I loved: I loved my job as a software engineer intern</li>
+            <ul>
+                <li>It was work from home plus I got to pick my hours</li>
+            </ul>
+            <li>Job I hated: I hated worked at McDonalds</li>
+            <ul>
+                <li>Why? Beause its McDonalds</li>
+            </ul>
+            <li>Current Job: I currently work as a Data Anaylst for TD Bank</li>
+            <li>Dream job: Getting to code all day and solve problems for people that need it. All while helping people.</li>
+        </ul>
+    </section>
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Coding</li>
+            <li><strong>Cats</strong></li>
+            <img src="images/CC.png" alt="Orange cat laying on a red blanket" width="300px"> <br>
+            <caption>Caption: My cat CC</caption><br>
+            <audio src="mp3s/Cat-voice-sound.mp3" controls loop>Your browser does not support HTML5 audio. Here is <a href="mp3s/Cat-voice-sound.mp3"> link to the audio</a> instead.</audio>
+            <li>Crafts</li>
+            <li>Pin Collecting</li>
+            <li>Tv Shows</li>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/The_Good_Place">The Good Place</a></li>
+                <li>Ugly Betty</li>
+                <li>Monk</li>
+            </ul>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <table id="center">
+            <tr>
+                <th>Company</th>
+                <th>Start Month and Year</th>
+                <th>Job</th>
+            </tr>
+            <tr>
+                <td>McDonalds</td>
+                <td>September 2017</td>
+                <td>Manager</td>
+            </tr>
+            <tr>
+                <td>Hopeworks</td>
+                <td>July 2021</td>
+                <td>Lead GeoSpatial Lead Intern</td>
+            </tr>
+            <tr>
+                <td>Hopeworks</td>
+                <td> March 2022</td>
+                <td>Development Intern</td>
+                
+            </tr>
+            <tr>
+                <td>COMHAR</td>
+                <td>June 2022</td>
+                <td>Data Entry Specialist</td>
+            </tr>
+            <tr>
+                <td>Beigene</td>
+                <td>Augest 2023</td>
+                <td>Software Engineer Intern</td> 
+            </tr>
+            <tr>
+                <td>TD Bank</td>
+                <td>June 2023</td>
+                <td>Data Anaylst</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>My email is: <a href="Mailto: HenryClymer@hopeworks.org">HenryClymer@hopeworks.org</a></p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+            <button>Submit</button>
+          </form> 
+    </section>
+    <br>
+    <footer>
+        <a href="#about">About Me</a> <br>
+        <a href="#interests">My Interests</a> <br>
+        <a href="#experience">Work Experience</a> <br>
+        <a href="#contact">Contact Me</a>
+    </footer>
+</body>
+</html>
